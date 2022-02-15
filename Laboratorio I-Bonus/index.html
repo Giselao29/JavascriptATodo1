@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BONUS I</title>
+</head>
+<body>
+    <div>
+
+        <form action="#" id="formulario">
+            <div>
+                <label for="numeroUno">Ingrese primer número:</label>
+                <input id="numeroUno" type="number">
+            </div>
+            <div>
+                <label for="numeroDos">Ingrese segundo número:</label>
+                <input id="numeroDos" type="number">
+            </div>
+            <div>
+                <select name="seleccion" id="seleccion">
+                    <option value="+">Suma</option>
+                    <option value="-">Resta</option>
+                    <option value="*">Multiplicación</option>
+                </select>
+            </div>
+            <input type="submit" value="Calcular">
+            <input type="reset" value="Borrar">
+        </form>
+
+            <template id="template">
+                <p id="parrafo" visibility="visible"></p>
+            </template>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
